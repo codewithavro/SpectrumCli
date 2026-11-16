@@ -26,3 +26,38 @@ SpectrumCli/
 ├── main.py             # CLI entry point
 ├── requirements.txt    # Python dependencies
 └── README.md
+## Installation
+
+1. **Clone the Repository**
+   * Download the project source code and enter the project directory:
+     ```bash
+     git clone [https://github.com/codewithavro/SpectrumCli.git](https://github.com/codewithavro/SpectrumCli.git)
+     cd SpectrumCli
+     ```
+
+2. **Create a Virtual Environment**
+   * Create an isolated `venv` folder to keep dependencies separate from your global Python installation:
+     ```bash
+     python -m venv venv
+     ```
+
+3. **Activate the Virtual Environment**
+   * **Windows (Command Prompt):**
+     ```cmd
+     venv\Scripts\activate
+     ```
+   * **Windows (PowerShell):**
+     ```powershell
+     .\venv\Scripts\Activate.ps1
+     ```
+   * **Android (Termux) / Linux / macOS:**
+     ```bash
+     source venv/bin/activate
+     ```
+
+4. **Upgrade `pip` & Install Dependencies**
+   * Update `pip` and install all required packages (`colorama`, `tabulate`, `Jinja2`, `pytest`) from `requirements.txt`:
+     ```bash
+     python -m pip install --upgrade pip
+     pip install -r requirements.txt
+     ```
