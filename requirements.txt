@@ -1,0 +1,11 @@
+# Terminal styling and color support across Windows and Termux
+colorama>=0.4.6
+
+# Clean table formatting for network scan lists in the CLI
+tabulate>=0.9.0
+
+# Template rendering for HTML report generation
+Jinja2>=3.1.3
+
+# Unit testing framework for the tests/ directory
+pytest>=8.0.0
